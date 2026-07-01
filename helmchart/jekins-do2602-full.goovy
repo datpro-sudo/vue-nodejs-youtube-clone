@@ -25,7 +25,6 @@ pipeline {
                 git url: 'https://github.com/datpro-sudo/vue-nodejs-youtube-clone',
                     branch: 'master',
                     credentialsId: 'do2602-jenkins-github'
-'
             }
         }
         stage('Create Env File') {

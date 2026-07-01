@@ -24,7 +24,7 @@ pipeline {
             steps {
                 git url: 'https://github.com/datpro-sudo/vue-nodejs-youtube-clone',
                     branch: 'master',
-                    credentialsId: 'do2602-jenkins-github
+                    credentialsId: 'do2602-jenkins-github'
 '
             }
         }
